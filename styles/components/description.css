@@ -1,0 +1,34 @@
+section#description{
+  width: 100%;
+  /* background: 
+    url('../../resources/images/phone.png') no-repeat 17% center,
+    url('../../resources/images/ufaber-bg.jpg') no-repeat;
+  background-size: auto 520px;
+  background-size: auto 520px, cover;  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 1em;
+}
+
+#description div:first-child{
+  width: 50%;
+  margin-left: auto;
+}
+#description h2{
+  margin: 10px 0;
+}
+#description p{
+  margin: 0 0 30px;
+}
+#description ul > li{
+  line-height: 2.5em;
+}
+#description ul{
+  margin-bottom: 40px;
+}
+#description div a{
+  background-color: var(--color-light-blue);
+  border-color: var(--color-light-blue);
+}

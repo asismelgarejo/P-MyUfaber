@@ -1,0 +1,36 @@
+.button{
+    border-radius: 1.3em / 50%;
+    color: white;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.6em;
+    padding: 0 1.4em;
+    font-size: 1.1em;
+    width: fit-content;
+}
+
+.color-heart{
+  color: var(--color-heart) !important;
+}
+.color-star{
+  color: var(--color-star) !important;
+}
+.free{
+  color: var(--color-green) !important;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  font-size: 1.1em;
+}
+.currency{
+  font-size: 1.3em;
+  font-weight: bold;
+  color: var(--color-light-blue);
+}
+.icon-center{
+  vertical-align: sub;
+  font-size: 1.4em;
+  margin-top: 0.1em;
+}

@@ -1,0 +1,46 @@
+section#hero{
+  background-image: url('../../resources/images/ufaber-bg-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--color-main);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#hero h1{
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 5px 0;
+  text-shadow: .2em .2em 0.8em black;
+}
+#hero p{
+  font-size: 1.6em;
+  font-weight: 300;
+  margin-bottom: 100px;
+  text-shadow: .2em .2em 0.8em black;
+}
+
+#hero .icon-arrow-down2{
+  position: absolute;
+  bottom: 30px;
+  font-size: 1.6em;
+  text-shadow: none;
+  color: var(--color-inverse-main);
+}
+#hero div{
+  display: flex;
+}
+#hero div a {
+  margin: 0 1em;
+}
+#hero div a:first-child {
+  background-color: var(--color-green);
+  border-color: var(--color-green);
+}
+#hero div > a:first-child + a{
+  background-color: var(--color-transparent);
+  border-color: var(--color-inverse-main);
+}

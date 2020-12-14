@@ -1,0 +1,29 @@
+#categories{
+  color: var(--color-main);
+}
+#categories a:hover{
+  font-weight: bold;
+}
+.categories__items{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.categories__item ul{
+  line-height: 1.7em;
+}
+.categories__item a{
+  color: inherit;
+}
+/* QUEST */
+#quest h2{
+  margin-bottom: 0;
+}
+#quest p{
+  margin: .5em 0 1.5em;
+}
+#quest a{
+  background-color: var(--color-orange);
+  border-color: var(--color-orange);
+}

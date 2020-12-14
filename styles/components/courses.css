@@ -1,0 +1,100 @@
+section#courses{
+  text-align: center;
+  padding-right: 0;
+}
+.courses_corousel{
+  overflow: scroll;
+}
+.courses_corousel > ul{
+  display: flex;
+  margin: 50px 0 30px;
+}
+.courses_corousel > ul > li{
+  margin-right: 2em;
+}
+.courses_corousel > ul > li:last-child{
+  margin-right: 0;
+}
+.courses_corousel-item{
+  width: 300px;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  /* border: thin solid var(--color-main); */
+  box-shadow: .01em .01em 1em .01em var(--color-inverse-main);
+  position: relative;
+  font-size: .9em;
+  /* color: var(--color-main); */
+}
+
+.courses_corousel-item .course-body,
+.courses_corousel-item .course-footer{
+  padding: 1em 1.5em;
+}
+
+
+.courses_corousel-item .course-header{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+.course-header span{
+  color: var(--color-inverse-main);
+}
+.courses_corousel-item .course-header span{
+  position: absolute;
+  font-size: 1.2em;
+  background: white;
+  padding: 0.4em;
+  border-radius: 50%;
+  right: 1em;
+  top: 1em;
+}
+.course-header img{
+  width: 100%;
+  height: 100%;
+}
+.course-body{
+  text-align: start;
+}
+.course-body h4{
+  margin: 0;
+}
+.course-body p{
+  margin: .4em 0;
+}
+.course-body ul{
+  display: flex;
+  float: left;
+  margin-right: 1em;
+}
+.course-body ul li span{
+  /* color: var(--color-star); */
+  color: var(--color-inverse-main);
+}
+.course-footer{
+  background-color: var(--color-inverse-main);
+  height: fit-content;
+  border-top: thin solid var(--color-main);
+  margin-top: auto;
+  padding: 0 1.5em;
+  height: 3.5em;
+  display: flex;
+}
+.course-footer div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.course-footer div span span{
+  margin-right: 5px;
+}
+
+
+
+#courses > a{
+  background-color: var(--color-light-blue);
+  border-color: var(--color-light-blue);
+  margin: 20px auto 0;
+}

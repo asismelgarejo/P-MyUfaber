@@ -1,0 +1,19 @@
+/* COLORS */
+:root{
+  --color-orange: #f39c0f;
+  --color-green: #10c35b;
+  --color-light-blue: #3598db;
+  --color-main: #453c2c;
+  --color-inverse-main: #bac3d3; /*inverse main color*/
+  --color-transparent: transparent;
+  --color-star: #f8b545;
+  --color-heart: #ff3f6a;
+  --color-facebook: #6688cf;
+  --color-twitter: #28c5f6;
+  --color-google-plus: #e86b4f;
+  --color-linkedin: #3b9ad7;
+}
+/* FONTS */
+:root{
+  --font-main: 'lato', Georgia, sans-serif;
+}

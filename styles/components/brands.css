@@ -1,0 +1,13 @@
+section#brands{
+  text-align: center;
+}
+.brands__container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 180px;
+}
+.brands__container img{
+  height: 65px;
+  filter: grayscale(100%);
+}

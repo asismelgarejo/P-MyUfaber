@@ -1,0 +1,30 @@
+header{
+  background-color: var(--color-transparent);
+  font-size: 0.9rem;
+  font-weight: lighter;
+  height: 80px;
+  width: 100%;
+  padding: 0 2em;
+  position: absolute;
+  z-index: 2;
+}
+header a {
+  color: white;
+}
+header ul{
+  display: flex;
+  width: inherit;
+  align-items: center;
+  height: inherit;
+}
+header ul li:first-child{
+  margin-right: auto;
+}
+header ul li:last-child{
+  margin-left: 10px;
+}
+header ul li:last-child a{
+  background-color: var(--color-light-blue);
+  border-color: var(--color-light-blue);
+  font-size: 1em;
+}

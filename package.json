@@ -1,0 +1,19 @@
+{
+  "name": "my-ufaber",
+  "version": "1.0.0",
+  "description": "One page project",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "html"
+  ],
+  "author": "Asis Melgarejo",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
