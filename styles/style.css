@@ -12,9 +12,10 @@
 @import url('components/categories.css');
 @import url('components/brands.css');
 @import url('components/testimonials.css');
+@import url('components/advertisements.css');
 @import url('components/footer.css');
 
-@import url("responsive/responsive.css") screen and (max-width: 360px);
+@import url("responsive/responsive.css") screen and (max-width: 412px);
 
 /* ************** OVERALL **********************/
 *{
